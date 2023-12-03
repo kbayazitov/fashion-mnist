@@ -1,3 +1,4 @@
 export_dir/
 fmnist/
 outputs/
+__pycache__
