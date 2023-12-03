@@ -1,0 +1,4 @@
+training:
+  export_dir: export_dir
+  epochs: 5
+  lr: 0.001

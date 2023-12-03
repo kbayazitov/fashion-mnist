@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fashionmnist"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "fashionmnist", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "^1.3.2"
+pandas = "^2.1.3"
+numpy = "^1.26.2"
+torch = "^2.1.1"
+torchvision = "^0.16.1"
+hydra-core = "^1.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

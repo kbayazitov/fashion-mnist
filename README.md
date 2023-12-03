@@ -1,0 +1,2 @@
+# FashionMNIST classification
+## MLOps project
